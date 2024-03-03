@@ -48,6 +48,10 @@ nav {
     font-weight: 700;
 }
 
+.btn:hover{
+    background-color: rgb(193,17,25);
+}
+
 .btn-sign{
     background-color: rgb(229, 9, 20);
     border: none;
@@ -139,30 +143,30 @@ nav {
 }
 
 .first img{
-    width: 38vw;
+    width: 500px;
 }
 
 .first video{
     position: absolute;
     top: 81px;
     left: 68px;
-    width: 27.8vw;
+    width: 368px;
     z-index: -1;
 }
 
 .second img{
-    width: 38vw;
+    width: 501px;
 }
 
 .download{
     position: absolute;
-    height: 15vh;
-    width: 21vw;
+    height: 88px;
+    width: 275px;
     border-radius: 15px;
     border: 1px solid rgb(205 183 184);
     background-color: black;
     bottom: 44px;
-    left: 115px;
+    left: 112px;
     display: flex;
     align-items: center;
 }
@@ -182,6 +186,78 @@ nav {
     font-size: 14px;
     font-weight: 400;
 }
+
+.center{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center1{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.faqbox{
+    margin-bottom: 90px;
+}
+
+.faq{
+    display: grid;
+    grid-template-rows: repeat(6,80px);
+    max-width: 75vw;
+    gap: 10px;
+    margin: auto;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    padding: 0px 30px;
+}
+
+.boxes:hover{
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    background-color: rgb(65, 65, 65);
+}
+footer{
+    max-width: 75vw;
+    margin:60px auto;
+}
+
+footer a{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.contacts a{
+    font-size: 14px;
+}
+
+.Nepal{
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.links{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit ,minmax(180px,1fr));
+    gap: 20px;
+}
+
+
 
 
 
