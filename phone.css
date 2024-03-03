@@ -1,0 +1,89 @@
+.main{
+    height: 60vh;
+}
+.box{
+    height: 60vh;
+}
+
+.verify{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.first{
+    flex-direction: column;
+    gap: 0px;
+}
+
+.first img{
+    width: 400px;
+}
+
+.first video{
+    width: 297px;
+    top: 59px;
+    left: 52px;
+}
+
+.second{
+    gap: 0px;
+    flex-direction: column-reverse;
+}
+
+.second img{
+    width: 400px;
+}
+.download{
+    height: 67px;
+    width: 230px;
+    bottom: 35px;
+    left: 83px;
+}
+
+.download img{
+    width: 40px;
+    padding: 6px 12px;
+}
+
+.faq{
+    max-width: 85vw;   
+}
+
+
+
+
+
+
+.large {
+    font-size: 32px;
+    font-weight: 800;
+
+}
+.medium {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.verify input{
+    padding: 8px 81px 9px 12px;
+}
+
+.btn-start{
+    padding: 4px 20px 4px 16px;
+}
+
+.text{
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.center{
+    text-align: center;
+    margin: 50px 10px 10px 10px;
+}

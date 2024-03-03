@@ -1,0 +1,100 @@
+.main{
+    height: 68vh;
+}
+.box{
+    height: 68vh;
+}
+
+.verify{
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.logo img {
+    width: 100px;
+}
+
+.btn-sign{
+    padding: 7px 16px 8px 15px;
+    font-size: 12px;
+}
+
+.large {
+    font-size: 28px;
+    font-weight: 800;
+
+}
+.medium {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.verify input{
+    padding: 8px 42px 9px 12px;
+}
+
+.first img{
+    width: 290px;
+}
+
+.first video{
+    width: 210px;
+    top: 48px;
+    left: 37px;
+}
+
+.second{
+    gap: 0px;
+    flex-direction: column-reverse;
+}
+
+.second img{
+    width: 300px;
+}
+.download{
+    height: 47px;
+    width: 175px;
+    bottom: 26px;
+    left: 63px;
+}
+
+.download img{
+    width: 26px;
+    padding: 6px 12px;
+}
+
+#movieName{
+    font-size: 12px;
+    font-weight: 400;
+}
+#Status{
+    font-size: 13px;
+
+}
+.btn-start{
+    padding: 4px 20px 4px 16px;
+}
+
+.text{
+    text-align: center;
+    margin: 0px 20px;
+}
+
+
+
+.center{
+    text-align: center;
+    margin:33px 10px 10px 10px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.faq{
+    max-width: 80vw;   
+}
+
+
+
