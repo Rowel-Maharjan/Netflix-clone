@@ -25,3 +25,7 @@ Netflix clone using html and css only.
 
 ![image](https://github.com/Rowel-Maharjan/Netflix-clone/assets/160736496/2f32d3d6-93d4-427e-9f43-bae1143ed831)
 
+
+![image](https://github.com/Rowel-Maharjan/Netflix-clone/assets/160736496/be93e773-da9d-4261-8342-fa0dd050bffb)
+
+
