@@ -1,6 +1,6 @@
 # Netflix-clone
 
-Netflix clone using html and css only.
+Netflix clone using html,css and JavaScript .
 
 # Screenshots
 
