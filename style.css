@@ -295,18 +295,19 @@ footer a{
 }
 
 .showfull{
+    z-index: -1;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.showfull.active {
     border: 1px solid black;
     margin-top: 1px;
     padding: 30px 30px;
     background-color: rgb(45, 45, 45);
     font-size: 24px;
     font-weight: 400;
-    display: none; /* Hide initially */
-    opacity: 0; /* Set initial opacity */
-    transition: opacity 20.3s ease; /* Add transition effect */
+    max-height: 1000px;
+    transition: max-height 0.8s ease;
 }
 
-.showfull.active {
-    display: block;
-    opacity: 1;
-}

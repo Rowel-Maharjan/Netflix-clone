@@ -30,7 +30,6 @@ function toggleHide(clickedElement) {
             showfull.classList.remove('active');
         }
     });
-
     let showfull = clickedElement.nextElementSibling;
     showfull.classList.toggle('active');
     
